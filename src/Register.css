@@ -1,0 +1,91 @@
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #2a5298, #4e54c8); /* Un degradado diferente para variar */
+  min-height: 100vh;
+}
+
+.register-wrapper {
+  width: 100%;
+  max-width: 500px; /* Un poco más ancho que el login para más campos */
+  background-color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.register-form h2 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  color: #4e54c8; /* Un color que combine con el degradado */
+  text-align: center;
+}
+
+.register-form .subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.register-form .error {
+  background-color: #ffdddd;
+  color: #c00;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 4px solid #c00;
+  border-radius: 4px;
+}
+
+.register-form .input-group {
+  margin-bottom: 15px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="tel"],
+.register-form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.register-form input:focus {
+  border-color: #4e54c8;
+  outline: none;
+}
+
+.register-form .btn-register {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e54c8; /* Un color que combine con el degradado */
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-form .btn-register:hover {
+  background-color: #2a5298; /* Oscurecer al pasar el ratón */
+}
+
+.register-form .login-link {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.register-form .login-link a {
+  color: #2a5298;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-form .login-link a:hover {
+  text-decoration: underline;
+}

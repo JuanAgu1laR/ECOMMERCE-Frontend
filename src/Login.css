@@ -1,0 +1,69 @@
+.login-page { /* Nuevo contenedor para aplicar los estilos de fondo y centrado */
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
+}
+
+.login-wrapper {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  color: #2a5298;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #2a5298;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e3c72;
+}
+
+.error {
+  background-color: #ffdddd;
+  color: #c00;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 4px solid #c00;
+  border-radius: 4px;
+}

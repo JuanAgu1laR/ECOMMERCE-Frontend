@@ -1,0 +1,49 @@
+.catalogos-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .catalog-form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .catalog-form input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  .catalog-form button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .catalogos-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+  
+  .catalogo-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+  }
+  
+  .catalogo-card img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .catalog-actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  

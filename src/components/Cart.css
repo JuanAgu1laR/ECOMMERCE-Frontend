@@ -1,0 +1,149 @@
+/* src/components/Cart.css */
+.cart-container {
+    padding: 30px;
+    background-color: #f8f9fa; /* Very light grey background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Add some margin around the cart */
+}
+
+.cart-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #343a40; /* Dark grey title */
+    border-bottom: 2px solid #dee2e6; /* Light grey separator */
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+.cart-empty-message {
+    font-style: italic;
+    color: #6c757d; /* Muted grey */
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-items-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e9ecef; /* Lighter grey separator */
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.item-name {
+    font-weight: 600;
+    color: #495057; /* Slightly darker grey */
+    flex-grow: 1; /* Allow name to take up space */
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.quantity-button {
+    background-color: #007bff; /* Primary blue */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.quantity-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.item-quantity {
+    font-size: 1.1em;
+    color: #495057;
+    font-weight: bold;
+    min-width: 20px; /* Ensure quantity doesn't jump around */
+    text-align: center;
+}
+
+.item-price {
+    font-size: 1.2em;
+    color: #28a745; /* Success green for price */
+    font-weight: bold;
+    margin-left: auto; /* Push price to the right */
+}
+
+.remove-button {
+    background-color: #dc3545; /* Danger red */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.remove-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.cart-total {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #343a40;
+    text-align: right;
+    padding: 15px 0;
+    border-top: 2px solid #dee2e6;
+}
+
+.checkout-button {
+    background-color: #28a745; /* Success green */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.2s ease;
+    display: block; /* Make it full width */
+    margin-top: 20px;
+}
+
+.checkout-button:hover {
+    background-color: #1e7e34; /* Darker green on hover */
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.item-image {
+    width: 80px; /* Ajusta el tamaño según necesites */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 15px; /* Espacio entre la imagen y el nombre */
+    object-fit: cover; /* Para que la imagen cubra el contenedor sin deformarse */
+}
+
+/* ... otros estilos existentes ... */

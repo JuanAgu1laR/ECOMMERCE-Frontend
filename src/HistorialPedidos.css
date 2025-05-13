@@ -1,0 +1,75 @@
+/* src/components/HistorialPedidos.css */
+.historial-wrapper {
+    padding: 3rem;
+    max-width: 900px;
+    margin: 3rem auto;
+    background: #f8f9fa; /* Fondo gris claro */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: #343a40; /* Gris oscuro para el título */
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6; /* Línea sutil debajo del título */
+    padding-bottom: 1rem;
+}
+
+.pedido-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    background: #fff; /* Fondo blanco para las tarjetas */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.pedido-card h4 {
+    color: #495057; /* Gris más oscuro para el encabezado del pedido */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pedido-card p {
+    color: #6c757d; /* Gris medio para la información */
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+.pedido-card strong {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.pedido-card h5 {
+    color: #546e7a; /* Azul grisáceo para el encabezado de productos */
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.pedido-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pedido-card li {
+    color: #7b8a8b; /* Gris claro para los detalles del producto */
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.pedido-card li:last-child {
+    border-bottom: none;
+}
+
+.loading-message,
+.empty-message {
+    color: #6c757d;
+    font-style: italic;
+    padding: 2rem;
+    text-align: center;
+}
